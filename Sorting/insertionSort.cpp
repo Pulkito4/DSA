@@ -34,6 +34,24 @@ void insertionSort(int n, vector<int> &arr)
     }
 }
 
+// insertion sort using while loop 
+void insertionSort1(int n, vector<int> &arr)
+{
+    for (int i = 1; i < n; i++)
+        // because 0th element ko initally as a single element sorted maan liya
+    {
+        int j = i - 1;
+        int temp = arr[i];
+        while (j >= 0 && arr[j] > temp)
+        {
+            // shift
+            arr[j + 1] = arr[j];
+            j--;
+        }
+        arr[j + 1] = temp;
+    }
+}
+
 int main()
 {
     vector<int> arr = {12, 11, 13, 5, 6};
