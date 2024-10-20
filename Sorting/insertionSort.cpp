@@ -34,11 +34,11 @@ void insertionSort(int n, vector<int> &arr)
     }
 }
 
-// insertion sort using while loop 
+// insertion sort using while loop
 void insertionSort1(int n, vector<int> &arr)
 {
     for (int i = 1; i < n; i++)
-        // because 0th element ko initally as a single element sorted maan liya
+    // because 0th element ko initally as a single element sorted maan liya
     {
         int j = i - 1;
         int temp = arr[i];
