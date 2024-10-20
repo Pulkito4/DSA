@@ -1,11 +1,16 @@
 // QUES : https://www.naukri.com/code360/problems/ayush-and-ninja-test_1097574?source=youtube&campaign=love_babbar_codestudio2&utm_source=youtube&utm_medium=affiliate&utm_campaign=love_babbar_codestudio2
 // similar/same ques : https://www.naukri.com/code360/problems/ayush-and-ninja-test_1097574?source=youtube&campaign=love_babbar_codestudio2&utm_source=youtube&utm_medium=affiliate&utm_campaign=love_babbar_codestudio2
+// similar/same ques : https://leetcode.com/problems/split-array-largest-sum/description/
+// similar/same ques : https://leetcode.com/problems/fair-distribution-of-cookies/description/
+// similar/same ques : https://www.naukri.com/code360/problems/painter's-partition-problem_1089557?source=youtube&campaign=love_babbar_codestudio2&utm_source=youtube&utm_medium=affiliate&utm_campaign=love_babbar_codestudio2
+// similar/same ques : https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/
+
 #include <bits/stdc++.h>
 using namespace std;
 
 bool isPossibleSoln(vector<int> &arr, int n, int m, int mid)
 {
-    int studentCount = 1;
+    int studentCount = 1;   
     int pagesSum = 0;
     for (int i = 0; i < n; i++)
     {
